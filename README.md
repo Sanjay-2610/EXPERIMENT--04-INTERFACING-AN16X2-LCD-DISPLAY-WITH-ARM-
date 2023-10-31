@@ -1,4 +1,4 @@
-# EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
+# EXPERIMENT 04 INTERFACING AN 16X2 LCD DISPLAY WITH ARM AND DISPLAY STRING
 
 
  ## Aim: To Interface a 16X2 LCD display to ARM controller  , and simulate it in Proteus 
@@ -23,9 +23,9 @@ interfaces Datasheet - production data Features
 All the above mentioned LCD display will have 16 Pins and the programming approach is also the same and hence the choice is left to you. 
 Below is the Pinout and Pin Description of 16x2 LCD Module:
 
-![image](https://user-images.githubusercontent.com/36288975/233858086-7b1a88a2-f941-475c-86c2-b3bae68bdf7e.png)
-![image](https://user-images.githubusercontent.com/36288975/233857710-541ac1c2-786c-4dfc-b7b5-e3a4868a9cb6.png)
-![image](https://user-images.githubusercontent.com/36288975/233857733-05df5dbf-1a1e-479e-85bb-8014a39ad878.png)
+<img src="https://user-images.githubusercontent.com/36288975/233858086-7b1a88a2-f941-475c-86c2-b3bae68bdf7e.png" width=450 height=450>
+<img src="https://user-images.githubusercontent.com/36288975/233857710-541ac1c2-786c-4dfc-b7b5-e3a4868a9cb6.png" width=450 height=450>
+<img src="https://user-images.githubusercontent.com/36288975/233857733-05df5dbf-1a1e-479e-85bb-8014a39ad878.png" width=450 height=450>
 
 4-bit and 8-bit Mode of LCD:
 
@@ -122,17 +122,17 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 2. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
 3. After creation of the circuit as per requirement as shown below 
 
-![image](https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png)
+<img src="https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png" width=450 height=450>
 
 4. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 5. click on debug and simulate using simulation as shown below 
 
-![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
+<img src="https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png" width=450 height=450>
 
 ## CIRCUIT DIAGRAM 
-![image](https://user-images.githubusercontent.com/36288975/233857974-bda6200e-4f88-4e7b-b189-4da80210fa23.png)
+<img src="https://user-images.githubusercontent.com/36288975/233857974-bda6200e-4f88-4e7b-b189-4da80210fa23.png" width=450 height=450>
 
 
 ## STM 32 CUBE PROGRAM :
@@ -229,11 +229,11 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output screen shots of proteus  :
-<img src="https://github.com/Sanjay-2610/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/91368803/7d5f7ce6-8fdf-44c8-ac3f-ad6d947c572c" width=475 height=475>
+<img src="https://github.com/Sanjay-2610/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/91368803/7d5f7ce6-8fdf-44c8-ac3f-ad6d947c572c" width=450 height=450>
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- <img src="https://github.com/Sanjay-2610/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/91368803/b8ee02ab-0a57-4b3c-8f1e-b296f3a42213" width=475 height=475>
+ <img src="https://github.com/Sanjay-2610/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/91368803/b8ee02ab-0a57-4b3c-8f1e-b296f3a42213" width=450 height=450>
  
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
