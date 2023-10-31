@@ -1,3 +1,8 @@
+```
+Name: Sanjay Ragavendar
+Register Number: 212222100045
+```
+ 
 # EXPERIMENT 04 INTERFACING AN 16X2 LCD DISPLAY WITH ARM AND DISPLAY STRING
 
 
